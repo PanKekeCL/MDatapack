@@ -1,0 +1,25 @@
+{
+    "type": "my_datapack:test",
+    "generator": {
+        "type": "minecraft:noise",
+        "settings": "minecraft:overworld",
+        "biome_source": {
+            "type": "multi_noise",
+            "biomes":[
+                {
+                    "biome": "my_datapack:dirty_plains",
+                    "parameters": {
+                        "altitude": 1,
+                        "humidity": 1,
+                        "temperature": 1,
+                        "weirdness": 1,
+                        "offset": 1,
+                        "continentalness": 1,
+                        "erosion": 1,
+                        "depth": 1
+                    }
+                }
+            ]
+        }
+    }
+}

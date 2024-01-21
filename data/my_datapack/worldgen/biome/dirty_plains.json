@@ -1,10 +1,58 @@
 {
     "depth": 0.1,
     "scale": 0.1,
+    "has_precipitation": true,
     "precipitation": "rain",
     "category": "plains",
     "temperature": 1.0,
     "temperature_modifier": "none",
     "downfall": 1.0,
-    "player_spawn_friendly": "true"
+    "player_spawn_friendly": true,
+    "effects": {
+        "fog_color": 16777152,
+        "sky_color": 16777120,
+        "water_color": 7754802,
+        "water_fog_color": 7754802,
+        "foliage_color": 16777120,
+        "grass_color": 7754802,
+        "grass_color_modifier": "none",
+        "particle": {
+            "probability": 0.1,
+            "options": {
+                "type": "falling_dust",
+                "value": {
+                    "name": "dirt"
+                }
+            }
+        }
+    },
+    "surface_builder": "my_datapack:dirty_plains",
+    "carvers": {
+        "air":[
+            "minecraft:cave",
+            "minecraft:nether_cave"
+        ]
+    },
+    "features": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "starts": [],
+    "creature_spawn_probability": 0.2,
+    "spawners":{
+        "monster": [],
+        "creature": [],
+        "ambient": [],
+        "water_creature": [],
+        "water_ambient": []
+    },
+    "spawn_costs": {}
 }

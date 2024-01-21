@@ -1,0 +1,14 @@
+{
+    "config":{
+        "top_material":{
+            "name": "minecraft:dirt"
+        },
+        "under_material":{
+            "name": "minecraft:coarse_dirt"
+        },
+        "under_water_material":{
+            "name": "minecraft:gravel"
+        }
+    },
+    "type": "default"
+}
